@@ -35,7 +35,7 @@ const NewExpenseForm = () => {
     }
 
     return (
-        <form className='new-expense__form'>
+        <form onSubmit={submitHandler} className='new-expense__form'>
             <div className='new-expense__controls'>
                 <div className='new-expense__control'>
                     <label>Title</label>
@@ -51,7 +51,7 @@ const NewExpenseForm = () => {
                 </div>
             </div>
             <div className='new-expense__actions'>
-                <button type='submit' onClick={submitHandler}>Add Expense</button>
+                <button type='submit'>Add Expense</button>
             </div>
         </form>
     );

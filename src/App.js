@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <h1>Expense Management System!</h1>
+      <h1><center>Expense Management Application!</center></h1>
       <NewExpenseForm />
       <Expenses expenses={expenses} />
     </div>

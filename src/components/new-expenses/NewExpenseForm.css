@@ -63,6 +63,6 @@
 
 .new-expense__actions button:hover,
 .new-expense__actions button:active {
-    background-color: #51006f;
-    border-color: #51006f;
+    background-color: whitesmoke;
+    border-color: black;
 }
